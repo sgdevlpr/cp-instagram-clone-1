@@ -5,7 +5,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal'; 
 import firebase from 'firebase';
 import { db, auth } from './firebase'
-import InstagramEmbed from 'react-instagram-embed';
+// import InstagramEmbed from 'react-instagram-embed';     The InstagramEmbed variable is not used in the code so this line can be removed
 
 import Post from './Post';
 import ImageUpload from './ImageUpload';
